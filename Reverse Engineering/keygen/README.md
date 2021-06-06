@@ -35,7 +35,7 @@ if checkends(a) == 1 and checkmiddle1(a) == 1 and checkmiddle2(a) == 1:
 else:
     print("Wrong flag.")
 ```
-We can see, that there are 3 functions, that check, if the submitted flag is valid. looking into the funcitons we see alot of passes that look like this:
+We can see, that there are 3 functions, that check, if the submitted flag is valid. Looking into the functions we see alot of passes that look like this:
 ```
 if password[27] == "1"  and password[17] == "4" and password[8] == "n" and password[23] == "y" and password[10] == "0":
 ```
