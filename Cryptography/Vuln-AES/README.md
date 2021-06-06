@@ -8,7 +8,7 @@ I set it up at : nc 34.92.214.217 8885
 Note : May need to use automation scripts.
 Flag format : shell{} and its 16 chars in length
 ```
-We are given a netcat address and port and also the [script](encrypt.py) that is running on it.
+We are given a netcat address and port and also the [script](encrypt.py) that is running on that server.
 
 So looking at the encrypt.py on the server:
 ```py
