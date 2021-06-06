@@ -19,7 +19,7 @@ For code examples check https://realantwohnette.wordpress.com
 ```
 
 https://realantwohnette.wordpress.com is a wordpress page with some articles.
-In these articles we found a hint to guess the origin of the attacker.
+In these articles we find a hint to guess the origin of the attacker.
 "Cancel Culture, the Tumor in Twitter" has a foreign word in it:
 
 ![hint](images/hint.PNG)
