@@ -33,3 +33,5 @@ Encrypted Flag = 0x82c1d725e4bd491495054ecb8a6c185c6f3d4d9a5062abf18a87e7e33add9
 This is enough to feed the awesome RsaCtfToolkit  (https://github.com/sourcekris/RsaCtfTool or https://github.com/Headorteil/RsaCtfTool):
 
 ![toolkit](images/toolkitout.png)
+
+To find the flag look closely at the output of the STR. You can clean it with an editor with Find&Replace.
