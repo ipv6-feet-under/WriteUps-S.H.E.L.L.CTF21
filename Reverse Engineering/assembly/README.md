@@ -25,7 +25,7 @@ According to the challenge, the flag gets calculated by:
 ```
 fun1(0x74,0x6f) + fun1(0x62,0x69) 
 ```
-We can reconstruct the assembly algorithm and convert it into python:
+We can convert the assembly algorithm into python, to calculate our flag:
 ```python
 #Parameters given from the challenge
 param1= "0x74"
