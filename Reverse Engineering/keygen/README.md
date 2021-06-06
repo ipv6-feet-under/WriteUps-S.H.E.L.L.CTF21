@@ -35,9 +35,13 @@ if checkends(a) == 1 and checkmiddle1(a) == 1 and checkmiddle2(a) == 1:
 else:
     print("Wrong flag.")
 ```
-We can see, that we need to input a flag. Our input then gets checked by 3 functions. If we pass the check, the flag we used is the correct one.
-From the code we can see, that the functions check whether a certain letter is at a position of the array. This means we can simply reconstruct the array.
-After reconstructing the array, we can submit our flag:
+We can see, that there are 3 functions, that check, if the submitted flag is valid. looking into the funcitons we see alot of passes that look like this:
+```
+if password[27] == "1"  and password[17] == "4" and password[8] == "n" and password[23] == "y" and password[10] == "0":
+```
+Here we can see, that at the 27th position of the array is a `1`, at the 17th position a `4` etc.
+
+This way we can reconstruct the complete flag:
 ```
 SHELL{s3nb0nzakur4_k4g3y05h1}
 ```
