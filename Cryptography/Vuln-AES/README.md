@@ -7,18 +7,12 @@ I set it up at : nc 34.92.214.217 8885
 
 Note : May need to use automation scripts.
 Flag format : shell{} and its 16 chars in length
-``
+```
 We are given a netcat address and port and also the [script](encrypt.py) that is running on it.
 
 
 
 
-
-sixteen byte AES
-|s|i|x|t|e|e|n|_|b|y|t|e|_|A|E|S|X|X|
-|---|---|---|
-|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|
-|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|
 
 
 [Final Script](vulnaes.py)
