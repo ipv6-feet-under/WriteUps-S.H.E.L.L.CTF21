@@ -2,7 +2,7 @@
 
 # Grass is green
 
-We are given [this image](/grass_is_green.jpg).
+We are given [this image](/grass_is_green.jpeg).
 So I upload it to https://stegonline.georgeom.net/image.
 
 
