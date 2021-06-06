@@ -3,9 +3,9 @@
 |Name|Weight|Category|
 |---|---|---|
 |[Cyber Attack 1](https://github.com/ipv6-feet-under/WriteUps-S.H.E.L.L.CTF21/tree/main/Cyber%20Attack%201)| 200| Puzzle|
-|[Cyber Attack 2]()| 200| Puzzle|
-|[Cyber Attack 3]()| 500| Puzzle|
-|[Cyber Attack 4]()| 500| Puzzle|
+|[Cyber Attack 2](https://github.com/ipv6-feet-under/WriteUps-S.H.E.L.L.CTF21/tree/main/Cyber%20Attack%202)| 200| Puzzle|
+|[Cyber Attack 3](https://github.com/ipv6-feet-under/WriteUps-S.H.E.L.L.CTF21/tree/main/Cyber%20Attack%203)| 500| Puzzle|
+|[Cyber Attack 4](https://github.com/ipv6-feet-under/WriteUps-S.H.E.L.L.CTF21/tree/main/Cyber%20Attack%204)| 500| Puzzle|
 |[anonym]()| 50| Web Security|
 |[Under Development]()| 50| Web Security|
 |[Collide]()| 100| Web Security|
