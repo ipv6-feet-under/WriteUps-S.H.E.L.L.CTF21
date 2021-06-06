@@ -2,7 +2,7 @@
 
 |Name|Weight|Category|
 |---|---|---|
-|[Cyber Attack 1]()| 200| Puzzle|
+|[Cyber Attack 1]('/Cyber Attack 1')| 200| Puzzle|
 |[Cyber Attack 2]()| 200| Puzzle|
 |[Cyber Attack 3]()| 500| Puzzle|
 |[Cyber Attack 4]()| 500| Puzzle|
