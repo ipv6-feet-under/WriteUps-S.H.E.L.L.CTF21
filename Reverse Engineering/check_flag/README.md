@@ -2,8 +2,8 @@
 
 # check_flag
 
-In this Challenge we were given an executable to analyse.
-After downloading the executable the first step was to open it up in IDA and looking for some hard coded passes or checks
+In this challenge we were given an executable to analyse.
+After downloading the executable the first step was to open it up in IDA and looking for some hard coded passes or checks:
 
 ![check_flag](check_flag.png)
 
