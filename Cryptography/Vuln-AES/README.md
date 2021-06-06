@@ -34,7 +34,7 @@ that it is using AES in ECB mode to encrypt the message. To go further we need t
 
 ![aes_ecb](aes_ecb.png)
 
-So essentially in our the cypher devides the constructed string into block of 16 bytes and encodes them with the key.
+So essentially in our case the cypher devides the constructed string into blocks of 16 bytes and encodes them with the key.
 We can abuse this to enumerate the flag in these simple steps:
 
 When we send 15 Bytes, 15 * "0" for example, we know that because of the structure  [16bytes block] + [our input] + [16 bytes flag] the first byte of the flag is suddenly in the block of our input when it comes to encryption. So when it gets encryption the 16byte block in the middle looks like this: 
