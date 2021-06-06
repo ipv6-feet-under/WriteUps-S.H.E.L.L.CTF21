@@ -9,7 +9,7 @@
 |[anonym](https://github.com/ipv6-feet-under/WriteUps-S.H.E.L.L.CTF21/tree/main/Web%20Security/anonym)| 50| Web Security|
 |[Under Development](https://github.com/ipv6-feet-under/WriteUps-S.H.E.L.L.CTF21/tree/main/Web%20Security/Under%20Development)| 50| Web Security|
 |[Collide](https://github.com/ipv6-feet-under/WriteUps-S.H.E.L.L.CTF21/tree/main/Web%20Security/Collide)| 100| Web Security|
-|[login]https://github.com/ipv6-feet-under/WriteUps-S.H.E.L.L.CTF21/tree/main/Web%20Security/login)| 200| Web Security|
+|[login](https://github.com/ipv6-feet-under/WriteUps-S.H.E.L.L.CTF21/tree/main/Web%20Security/login)| 200| Web Security|
 |[Fun with Tokens](https://github.com/ipv6-feet-under/WriteUps-S.H.E.L.L.CTF21/tree/main/Web%20Security/Fun%20with%20Tokens)| 500| Web Security|
 |[Hidden Inside](https://github.com/ipv6-feet-under/WriteUps-S.H.E.L.L.CTF21/tree/main/Forensics/Hidden%20Inside)| 50| Forensics|
 |[Cold Compress Inside](https://github.com/ipv6-feet-under/WriteUps-S.H.E.L.L.CTF21/tree/main/Forensics/Cold%20Compress%20Inside)| 100| Forensics|
