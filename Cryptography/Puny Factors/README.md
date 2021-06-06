@@ -49,8 +49,6 @@ encrypted_flag = 601865640552520227409522056634648032282902273234724188320042214
 
 decrypted_flag = long_to_bytes(pow(encrypted_flag,d,n)).decode()
 
-print(RSA.construct((n,e)).publickey().exportKey().decode())
-print("c = ",encrypted_flag)
 print(decrypted_flag)
 ```
 
