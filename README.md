@@ -1,5 +1,7 @@
 ![S.H.E.L.L.CTF](banner.png)
 
+Thanks to [shellpwn](https://ctftime.org/team/65394) for hosting [S.H.E.L.L. CTF 2021](https://shellctf.games/)
+
 |Name|Weight|Category|
 |---|---|---|
 |[Cyber Attack 1](https://github.com/ipv6-feet-under/WriteUps-S.H.E.L.L.CTF21/tree/main/Puzzle/Cyber%20Attack%201)| 200| Puzzle|
