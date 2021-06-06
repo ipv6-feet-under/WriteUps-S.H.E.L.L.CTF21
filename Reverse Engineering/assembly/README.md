@@ -21,7 +21,7 @@ fun1:
 	<+40>:	leave  
 	<+41>:	ret  
 ```
-the flag gets calculated by:
+The flag gets calculated by:
 ```
 fun1(0x74,0x6f) + fun1(0x62,0x69) 
 ```
