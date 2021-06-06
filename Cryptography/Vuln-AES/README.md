@@ -1,12 +1,13 @@
 ![S.H.E.L.L.CTF](../../banner.png)
 
 # Challenge Name
-### This implementation of AES is breakable, but how ?
-### I set it up at : nc 34.92.214.217 8885
+```
+This implementation of AES is breakable, but how ?
+I set it up at : nc 34.92.214.217 8885
 
-#### Note : May need to use automation scripts.
-#### Flag format : shell{} and its 16 chars in length
-
+Note : May need to use automation scripts.
+Flag format : shell{} and its 16 chars in length
+```
 We are given a netcat address and port and also the [script](encrypt.py) that is running on it.
 
 
@@ -17,8 +18,7 @@ sixteen byte AES
 |s|i|x|t|e|e|n| |b|y|t|e| |A|E|S|X|X|
 |---|---|---|
 |0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|
-
-
+|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|
 
 
 [Final Script](vulnaes.py)
