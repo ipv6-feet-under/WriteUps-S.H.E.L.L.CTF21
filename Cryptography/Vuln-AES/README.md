@@ -34,7 +34,7 @@ that it is using AES in ECB mode to encrypt the message. To go further we need t
 
 ![aes_ecb](aes_ecb.png)
 
-So essentially in our the cypher devides the constructed string into block of 16 bytes and encodes them with the key.
+So essentially in our case the cypher devides the constructed string into blocks of 16 bytes and encodes them with the key.
 We can abuse this to enumerate the flag in these simple steps:
 
 When we send 15 Bytes, 15 * "0" for example, we know that because of the structure  [16bytes block] + [our input] + [16 bytes flag] the first byte of the flag is suddenly in the block of our input when it comes to encryption. So when it gets encryption the 16byte block in the middle looks like this: 
@@ -45,7 +45,7 @@ When we send 15 Bytes, 15 * "0" for example, we know that because of the structu
 
 because we know our flag format is "SHELL{s0m3_th1ng_h3r3}". But the flag format doesn't matter this works for any flag.
 
-So if we send the input "000000000000000" we know that essentially the middle block becomes "000000000000000 + first byte of flag" = "000000000000000S". That means now we can brute force the first byte of the flag by sending 15 * "0" + A and compares that with what we got by sending 15 zeros only. If it matches this has to be our first byte. If it doesn't we just send the next letter so 15 * "0" + B for example. Until we got our first byte. After that we can continue to enumerate the second byte of the flag following the same technique. Now we send 14 * "0" + S (because we now know the first by is S) + A and compares that to our previous response. If it doesn't match we will send 14 * "0" + S + B etc. until we have recovered the complete Flag.
+So if we send the input `"000000000000000"` we know that essentially the middle block becomes `"000000000000000 + first byte of flag" = "000000000000000S"`. That means now we can brute force the first byte of the flag by sending 15 * "0" + A and compares that with what we got by sending 15 zeros only. If it matches this has to be our first byte. If it doesn't we just send the next letter so 15 * "0" + B for example. Until we got our first byte. After that we can continue to enumerate the second byte of the flag following the same technique. Now we send 14 * "0" + S (because we now know the first by is S) + A and compares that to our previous response. If it doesn't match we will send 14 * "0" + S + B etc. until we have recovered the complete Flag.
 
 Alright after we understood how it works, let's write the script for it:
 
