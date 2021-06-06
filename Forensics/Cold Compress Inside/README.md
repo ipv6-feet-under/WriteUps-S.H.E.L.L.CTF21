@@ -5,7 +5,10 @@
 We are given [this image](COLD_COMPRESS.jpeg).
 Running `file` on it quickly tells us it's a PNG even though it has .jpeg extension.
 
-Now we can use [this really nice tool kit from github](https://github.com/DominicBreuker/stego-toolkit) and run `check_png.sh` on it.
-In the `zsteg` part of the output we find the flag:
+As the name suggests already we already assume that there is nother file hidden inside of it. So we run binwalk on it:
 
-![flag.png](flag.png)
+![binwalk](binwalk.png)
+
+We extracted a o.exe let's just run `string -n 8 o.exe` on it:
+
+![strings](strings.png)
