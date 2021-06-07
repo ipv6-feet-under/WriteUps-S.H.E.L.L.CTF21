@@ -5,7 +5,7 @@
 We are given [this image](COLD_COMPRESS.jpeg).
 Running `file` on it quickly tells us it's a PNG even though it has .jpeg extension.
 
-As the name suggests already we already assume that there is nother file hidden inside of it. So we run binwalk on it:
+As the name suggests already we assume that there is another file hidden inside of it. So we run binwalk on it:
 
 ![binwalk](binwalk.png)
 
